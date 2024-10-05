@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Practica 9</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <article>
+        <div class="container">
+            <h1>Conceptos básicos de desarrollo web</h1>
+            <p>El diseño web es complejo y amplio, así que te puede parecer difícil saber por dónde comenzar. 
+                Pero lo fundamental que debes comprender como diseñador es el espacio y el diseño, cómo manejar las 
+                fuentes y los colores, y combinar todo de una manera que transmita tu mensaje de manera efectiva. Si 
+                piensas iniciarte como desarrollador web, los siguientes conceptos básicos de desarrollo web pueden ser 
+                un gran recurso a aprovechar. 
+            </p><br><br>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Concepto</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Ejemplo de uso</th>
+                        <th scope="col">Imagenes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>HTML</td>
+                        <td>Lenguaje de marcado para estructurar el contenido en la web.</td>
+                        <td>Crear la estructura de una página web.</td>
+                        <td><img src="img/HTML.jpg"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>CSS</td>
+                        <td>Hojas de estilo en cascada para diseñar y presentar contenido.</td>
+                        <td>Aplicar estilos y diseño a la página web.</td>
+                        <td><img src="img/CSS.png"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>JavaScript</td>
+                        <td>Lenguaje de programación para añadir interactividad y dinámica a las páginas web.</td>
+                        <td>Crear funciones interactivas en un sitio web.</td>
+                        <td><img src="img/javascript.png"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Frontend</td>
+                        <td>Parte visible de una web que interactúa con el usuario (HTML, CSS, JavaScript).</td>
+                        <td>Diseño y desarrollo de interfaces de usuario.</td>
+                        <td><img src="img/Frontend.png"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Backend</td>
+                        <td>Parte del servidor que maneja la lógica, bases de datos y autenticación (PHP, Node.js, Python, Ruby).</td>
+                        <td> Gestión de bases de datos y lógica del servidor.</td>
+                        <td><img src="img/backend.png"></td>
+                    </tr>
+                </tbody>
+            </table><br><br>
+            <h4>Fundamentos técnicos de una página web</h4>
+            <p>Uno de los requisitos principales para crear una página web, es tener capacidad de almacenamiento en un servidor, servicio que 
+                ofrecen los proveedores de Internet especializados, es decir, los proveedores de alojamiento web. Por lo general, la oferta 
+                comprende packs completos que además del espacio en disco necesario también incluyen prestaciones como la memoria RAM, un 
+                dominio propio, bases de datos y las herramientas pertinentes para el desarrollo web. Por lo general, el conocimiento de los 
+                dispositivos físicos que se ocupan de alojar los recursos es un aspecto que permanece oculto para los usuarios de los packs de 
+                alojamiento web. En el caso de los modelos de alojamiento alternativos como los servidores web dedicados ocurre lo contrario, ya
+                que estos se alquilan en un centro de datos como componentes de hardware independientes.</p><br>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Dominio</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Nombres de Dominio y Estructura</h6>
+                        <p class="card-text">Cualquier proyecto de Internet se muestra con un nombre único e inequívoco. El llamado dominio es 
+                            uno de los componentes básicos de los packs de alojamiento web. Los dominios siguen estrictamente la estructura 
+                            jerárquica del sistema de nombres de dominio y constan de dominios de nivel superior (p. ej., es), de dominios 
+                            libres (dominios de segundo nivel) y de subdominios facultativos.</p>
+                        <a href="https://www.godaddy.com/es/dominios" class="card-link">Busqueda de Dominio</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Espacio web</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Protocolo de Transferencia de Archivos (FTP) y Programas Cliente</h6>
+                        <p class="card-text">Cada página web contiene datos que el servidor web pone a disposición de los usuarios. Por ello, 
+                            los packs de alojamiento web siempre cuentan con un determinado contingente de almacenamiento para documentos HTML, 
+                            hojas de estilo, imágenes, vídeos o bases de datos.  La transferencia de datos se ejecuta generalmente a través del 
+                            protocolo File Transfer Procotol (FTP) y de un programa cliente como Filezilla o la aplicación WinSCP.</p>
+                        <a href="https://www.ionos.mx/digitalguide/hosting/cuestiones-tecnicas/los-mejores-clientes-ftp-para-el-alojamiento-web/" class="card-link">Mejores FTP clients</a>
+                    </div>
+                </div>
+                    <div class="col-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Base de Datos</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Bases de Datos Relacionales y SQL</h6>
+                            <p class="card-text">Con esta modalidad de gestión de datos, estos se estructurarán por medio de tablas y se 
+                                establecerá una relación con otros datos a través de identificadores. La transmisión y la gestión de 
+                                estructuras de datos se realiza, en general, a través del lenguaje para bases de datos SQL (Structured Query Language). 
+                                Por otro lado, MySQL, software de código abierto, es una de las bases de datos relacionales para páginas web 
+                                dinámicas a nivel mundial.
+                            </p>
+                            <a href="https://www.mysql.com/" class="card-link">MySQL</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Servidor web</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Tipos de Alojamiento Web</h6>
+                            <p class="card-text">Los packs de alojamiento web para principiantes se llevan a cabo a través del llamado 
+                                alojamiento compartido. Con este tipo de alojamiento, son varias las cuentas de hosting las que pueden 
+                                compartir los recursos de un mismo servidor. Para los proyectos profesionales de gran envergadura, los 
+                                proveedores de alojamiento web ofrecen diferentes posibilidades de servidores web que brindan a los clientes 
+                                componentes de hardware de manera exclusiva.</p>
+                            <a href="https://www.hostinger.es/blog/cierre-de-000webhost" class="card-link">Hosting</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Sobre nosotros</h5>
+              <p>Código Fácil es un sitio web diseñado para guiar a principiantes en el emocionante mundo de la 
+                programación web. Ofrece una introducción clara y concisa a los conceptos fundamentales de HTML, CSS y 
+                JavaScript, los pilares de cualquier sitio web moderno.</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Enlaces rápidos</h5>
+              <ul>
+                <a href="index.html">Inicio</a><br>
+                <a href="Nosotros.html">Nosotros</a><br>
+                <a href="galeria.html">Galeria</a><br>
+                <a href="contacto.html">Contacto</a><br>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Síguenos</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.facebook.com/">Facebook<i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://x.com/">Twitter<i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/">Instagram<i class="fab fa-instagram"></i></a></li>
+              </ul>
+              <p class="text-muted">© 2024 Diseñado por Irene Lopez Santiz. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>
